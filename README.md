@@ -4,16 +4,6 @@ Full Stack Software Engineer based in Bangkok. I build backend-heavy products wi
 
 Currently at **Siam Orchard Group**, where I own features end-to-end — from stakeholder requirements to production.
 
-## ⚡ What I'm building
-
-**[Horo Stellar](https://horostellar.com)** — an AI tarot reading SaaS I designed, built, and operate solo, live in production.
-
-- **Financially-safe billing** — credit deduction, AI call, and result persistence in a single ACID transaction with pessimistic locking. No double-spends, no charges on AI failure.
-- **Resilient LLM layer** — routes between OpenAI and Claude per request type, falls back to OpenRouter, scales timeouts and token budgets by complexity, and recovers partial JSON from truncated output.
-- **Payments** — Stripe credit packs and subscriptions (Card + PromptPay) fulfilled via idempotent, signature-verified webhooks.
-- **Security** — Google/LINE OAuth with CSRF state, refresh-token rotation with reuse detection, Redis-backed lockout, rate limiting.
-- **Operations** — daily PostgreSQL backups to Cloudflare R2 via GitHub Actions, Sentry, health probes, structured logging, 127 unit tests + e2e suites.
-
 ## 🛠 Stack
 
 | | |
