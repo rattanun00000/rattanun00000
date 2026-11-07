@@ -5,13 +5,11 @@ Full Stack Software Engineer based in Bangkok. I build backend-heavy products wi
 Currently at **Siam Orchard Group**, where I own features end-to-end — from stakeholder requirements to production.
 
 ### 🚧 Now building — Petcare Assistant
-An AI assistant + CRM on LINE for pet shops (vet, grooming, boarding). Multi-tenant SaaS, live demo:
-**[petcare.rattanun.dev](https://petcare.rattanun.dev)** — chat with the bot on LINE, browse the dashboard read-only.
+AI assistant + CRM on LINE for pet shops (vet, grooming, boarding). Multi-tenant SaaS, live demo: **[petcare.rattanun.dev](https://petcare.rattanun.dev)**
 
-- Customers book, pay deposits and cancel on LINE LIFF pages; the AI answers from the shop's own data and hands off to staff when it should
-- Health facts the AI picks up from chat wait for staff to confirm — the bot never invents them
-- Every tenant isolated by PostgreSQL row-level security; 2,300+ tests on real Postgres
-- Eval suite on real models: 96% main / 88% hold-out · ~390 webhooks/s on a 2 vCPU box · runs on a $28.80/year server
+- **What it does:** customers ask, book, pay deposits and cancel inside LINE; the AI answers from the shop's own data and hands the chat to staff when it should
+- **How it stays safe:** tenants isolated by PostgreSQL row-level security; prices, emergencies and anything the bot remembers about a pet's health go through code checks or staff review, not the model alone
+- **How I know it works:** 2,300+ tests on real Postgres, a real-model eval suite with a hidden hold-out set (96% / 88%), load-tested to ~390 webhooks/s on 2 CPU cores
 
 ### 🛠 Stack
 | | |
