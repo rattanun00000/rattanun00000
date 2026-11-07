@@ -1,4 +1,4 @@
-## Hi, I'm Bank (Rattanun Rodchawang) 👋
+# Hi, I'm Bank (Rattanun Rodchawang) 👋
 
 Full Stack Software Engineer based in Bangkok. I build backend-heavy products with **NestJS, Next.js, and PostgreSQL**, and I care most about the parts users never see: transaction safety, payment correctness, and systems that keep running at 3 a.m.
 
